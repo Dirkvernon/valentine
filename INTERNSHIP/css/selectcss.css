@@ -1,0 +1,115 @@
+/** universal selector; This affects everything in the document 
+* {
+
+}
+
+/**element selector; thuis selects element of a given type */
+body {
+    background-color: #f1faee;
+}
+
+button {
+    background-color: #a8dadc;
+    font-size: 30px;
+}
+
+/**using comma to style two objects*/
+h1,h2 {
+    color: purple;
+}
+
+/**ID SELECTORS; are done with harsh sign and the name of the selector*/
+#signup{
+background-color: yellow;
+}
+
+/** CLASS SELECTORS; this uses a dot then the selector name */
+span {
+    color: #457B9D;
+}
+
+.post {
+    background-color: darksalmon;
+}
+
+/** DESCENDANT SELECTOR; this selects all the elements nested in another element*/
+span a {
+    color: #457B9D;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+ul a {
+    color: purple;
+}
+
+/** ADJACENT SELECTOR (combinator); this selects element that follows an element immediately e.g: <P> tag outsid a <div> tag**/
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/**DIRECT CHILD; this will select the direct children of an element **/
+footer > a {
+    color: magenta;
+}
+
+/** ATTRIBUTE SELECTOR; this allows us to select element based on attribute**/
+input[type ="password"] {
+    color: magenta;
+}
+
+input[type="text"]{
+    color: blue;
+}
+
+a[href*="puppies"] {
+    color: blue;
+}
+
+/** PSEUDO CLASSES; THESE are keywords added to a selector that specifies a specail state of the selected elements,
+examples are: :active, :checked, :first, :first-child, :hover, :not(), :nth-child(), :nth-of-type(), e.t.c**/
+.post button:hover {
+    color: red;
+    background-color: white;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: green;
+    color: white;
+}
+
+.post:nth-of-type(2n) {
+    background-color: bisque;
+}
+
+/** PSEUDO ELEMENTS
+EXAMPLES are: ::after, ::before, ::first-letter, ::first-line, ::selection, e.t.c**/
+h2::first-letter {
+  font-size: 50px;  
+}
+
+p::first-line {
+color: white;
+background-color: purple;
+}
+
+p::selection {
+    background-color: green;
+}
+
+/**CONFLICTING STYLES TARGETING THE SAME ELEMENT **/
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+/**iv'e done this before at line 72**/
+.post button:hover {
+    color: red;
+    background-color: white;
+}

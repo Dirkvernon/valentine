@@ -1,0 +1,160 @@
+/* body{
+    background-image: url(../images/hacker.png);
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: rgba(255, 50, 100, alpha);
+    position: relative;
+    width: 100%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: white;
+    margin: 20px 5px 20px 5px;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+    overflow: visible;
+}
+
+.column {
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.left {
+    width: 30%;
+    background-color: lightblue;
+}
+
+.right {
+    width: 70%;
+    background-color: aqua;
+} */
+
+/* using overflow */
+.lorem {
+    /* border: 30px blueviolet solid ; */
+    overflow: scroll;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.row {
+    flex: 3;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    width: 15%;
+}
+
+.one {
+    background-color: blueviolet;
+}
+
+.two {
+    background-color: antiquewhite;
+}
+
+.three {
+    background-color: aqua;
+}
+
+.four {
+    background-color: aquamarine;
+}
+
+.five {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.pseudo {
+    background-color: cyan;
+}
+
+/* pseudo class. there list of some pseudo elements e.g: > ~ + , */
+div~p {
+    background-color: blue;
+}
+
+.pseudo p:nth-child(odd) {
+    background-color: green
+}
+
+.pseudo p:nth-of-type(2n) {
+    background-color: bisque;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: white;
+    background-color: purple;
+}
+
+p::selection {
+    background-color: green;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "sofia", sans-serif;
+    text-shadow: 3px 3px 3px grey;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    font-size: 60px;
+    font-family: "sofia", sans-serif;
+    text-shadow: 3px 3px 3px rgb(216, 126, 201);
+    color: rgb(75, 3, 75);
+}
+
+.nav a:active {
+    text-decoration: unset;
+    font-size: 40px;
+    font-family: "sofia", sans-serif;
+    text-shadow: 3px 3px 3px rgb(126, 66, 61);
+    color: rgb(15, 246, 7);
+}
