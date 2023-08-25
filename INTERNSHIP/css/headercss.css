@@ -89,10 +89,6 @@ body {
         color: white;
     }
 
-    .nav_area1 li:hover {
-        background-color: purple;
-    }
-
     .nav_area1 li a:hover {
         background-color: white;
         color: purple;

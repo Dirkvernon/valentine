@@ -1,0 +1,64 @@
+.btn_div {
+    display: block;
+    width: 30%;
+    border-radius: 0.3em;
+    margin: 1em auto;
+    height: 30rem;
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    margin: 0.2em;
+}
+
+#btn1 {
+    background-color: aqua;
+    width: 30%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+}
+
+#btn2 {
+    background-color: aqua;
+    width: 30%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+
+}
+
+#btn3 {
+    background-color: aqua;
+    width: 30%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+}
+
+#div1 {
+    background-color: aqua;
+    height: 28.3%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    margin: 0 0.2em 0.2em 0.2em;
+    display: none;
+}
+
+#div2 {
+    background-color: aquamarine;
+    height: 28.3%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    margin: 0 0.2em 0.2em 0.2em;
+    display: none;
+}
+
+#div3 {
+    background-color: rgb(1, 251, 147);
+    height: 28.3%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    margin: 0 0.2em 0.2em 0.2em;
+    display: none;
+}
