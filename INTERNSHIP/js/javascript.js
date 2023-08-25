@@ -15,6 +15,9 @@ document.getElementById("divhover").addEventListener("mouseout", function () {
 
 document.getElementById("btn1").addEventListener("click", function () {
         document.getElementById("btn1").style.backgroundColor = "rgb(9, 90, 90)"
+        document.getElementById("btn1").style.color = "white"
+        document.getElementById("btn2").style.color = "black"
+        document.getElementById("btn3").style.color = "black"
         document.getElementById("btn2").style.backgroundColor = "aqua"
         document.getElementById("btn3").style.backgroundColor = "aqua"
         document.getElementById("div1").style.display = "block"
@@ -24,6 +27,9 @@ document.getElementById("btn1").addEventListener("click", function () {
 
 document.getElementById("btn2").addEventListener("click", function () {
         document.getElementById("btn2").style.backgroundColor = "rgb(9, 90, 90)"
+        document.getElementById("btn2").style.color = "white"
+        document.getElementById("btn1").style.color = "black"
+        document.getElementById("btn3").style.color = "black"
         document.getElementById("btn1").style.backgroundColor = "aqua"
         document.getElementById("btn3").style.backgroundColor = "aqua"
         document.getElementById("div1").style.display = "none"
@@ -33,6 +39,9 @@ document.getElementById("btn2").addEventListener("click", function () {
 
 document.getElementById("btn3").addEventListener("click", function () {
         document.getElementById("btn3").style.backgroundColor = "rgb(9, 90, 90)"
+        document.getElementById("btn3").style.color = "white"
+        document.getElementById("btn2").style.color = "black"
+        document.getElementById("btn").style.color = "black"
         document.getElementById("btn1").style.backgroundColor = "aqua"
         document.getElementById("btn2").style.backgroundColor = "aqua"
         document.getElementById("div1").style.display = "none"
